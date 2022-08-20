@@ -4,6 +4,7 @@ import { CheckIcon } from '@heroicons/react/outline'
 const pricing = {
   tiers: [
     {
+      id: 1,
       price: 'NFT Asessment Package',
       description: 'An essential tool to scale a project. Our experts offer bespoke advice on the areas that need improving, so you can focus on building.',
       features: [
@@ -17,6 +18,7 @@ const pricing = {
       cta: 'Request on Discord',
     },
     {
+      id: 2,
       price: 'Discord Security Package',
       description: 'Discord is the lifeblood of any NFT project. We can help protect your community and reputation by taking steps to secure your project.',
       features: [
@@ -29,6 +31,7 @@ const pricing = {
       cta: 'Request on Discord',
     },
     {
+      id: 3,
       price: 'Total Project Assessment and Security Package',
       description: 'Dedicated support and infrastructure for your company.',
       features: [
@@ -53,7 +56,7 @@ export default function Pricing() {
       {/* Tiers */}
       <div className="mt-12 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
         {pricing.tiers.map((tier) => (
-          <div className="relative p-8 bg-[#344250] rounded-3xl shadow-sm flex flex-col">
+          <div key={tier.id} className="relative p-8 bg-[#344250] rounded-3xl shadow-sm flex flex-col">
             <div className="flex-1">
               {tier.optionThree ? (
                 <p className="absolute top-0 py-1.5 px-4 bg-green-500 rounded-full text-sm font-semibold text-white transform -translate-y-1/2">

@@ -9,7 +9,7 @@ export default function DiscordSecurity() {
                         DISCORD SECURITY
                     </h2>
                     <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
-                        <span className="lg:block inline-block">Protect your&nbsp;</span>
+                        <span className="lg:block inline-block">Protect your</span>{' '}
                         <span className="lg:block inline-block">community</span>
                     </h1>
                 </div>
@@ -51,7 +51,7 @@ export default function DiscordSecurity() {
                     </div>
                     <div>
                         <p className="mt-8 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-xl md:mt-5 md:max-w-3xl">
-                            Discord is the lifeblood of an NFT project. However, it's a prime target for scams and hacks. Within seconds a project can lose all credibility and trust, alongside thousands of dollars when a server is compromised.
+                            Discord is the lifeblood of an NFT project. However, it&apos;s a prime target for scams and hacks. Within seconds a project can lose all credibility and trust, alongside thousands of dollars when a server is compromised.
                         </p>
                         <p className="mt-8 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-xl md:mt-5 md:max-w-3xl">
                             Our team of security experts can help ease the pressure and keep your community and funds safe with personalized consultancy.

@@ -16,6 +16,7 @@ export default function Cypher() {
           <div className="pt-20">
             <Image
             src='/dashboard.png'
+            alt="Cypher dashboard"
             width='640'
             height='640' />
           </div>

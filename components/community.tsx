@@ -15,9 +15,10 @@ export default function Community() {
             </h1>
           </div>
         </div>
-        <div className="mt-16 mx-auto w-full h-screen px-4 sm:mt-24 relative">
+        <div className="mx-auto w-full h-screen px-4 sm:mt-24 relative">
             <Image
             src='/community.png'
+            alt="Cypher community"
             layout='fill'
             objectFit='cover'
             />

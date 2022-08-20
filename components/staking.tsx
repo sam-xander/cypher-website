@@ -31,6 +31,7 @@ export default function Staking() {
                 <div className="mx-auto w-full h-screen px-4 relative">
                     <Image
                     src='/stake.png'
+                    alt="Cypher staking and tokenomics"
                     layout='fill'
                     objectFit='cover'
                     className='rounded-3xl'

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Assessments() {
     return (
       <section className="lg:relative lg:mt-40 mt-20">
@@ -10,10 +12,14 @@ export default function Assessments() {
               <span className="block inline">Improvement&nbsp;</span>
               <span className="block inline">in every area</span>
             </h1>
-            <img
-             className="mt-12 mb-12 rounded-2xl" 
-             src="/report-sm.png" 
-             alt="" />
+            <div className="mt-12">
+              <Image
+              className="rounded-3xl" 
+              src="/report-sm.png" 
+              alt="Cypher report section"
+              width="1240"
+              height="1002" />
+             </div>
             <p className="mt-8 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-xl md:mt-5 md:max-w-3xl">
               Improve fundamentals, increase brand awareness, build confidence and improve security.
             </p>
@@ -31,10 +37,12 @@ export default function Assessments() {
           </div>
         </div>
         <div className="relative hidden lg:block w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <img
+          <Image
           className="absolute inset-0 w-auto h-full object-cover object-left rounded-l-3xl"
           src="/report.png"
-          alt="" />
+          alt="Cypher report"
+          layout="fill"
+          objectFit='cover' />
         </div>
       </section>
     )

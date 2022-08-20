@@ -17,6 +17,7 @@ export default function CypherSeals() {
                 <div className="pt-20 w-full h-[600px] sm:h-[700px] md:h-[600px] lg:h-[600px] relative">
                     <Image
                     src='/orange.png'
+                    alt="Orange seal"
                     layout='fill'
                     objectFit='cover'
                     className='rounded-3xl'
@@ -29,6 +30,7 @@ export default function CypherSeals() {
                 <div className="pt-20 w-full h-[600px] sm:h-[700px] md:h-[600px] lg:h-[600px] relative">
                     <Image
                     src='/green.png'
+                    alt="Green seal"
                     layout='fill'
                     objectFit='cover'
                     className='rounded-3xl'
@@ -41,6 +43,7 @@ export default function CypherSeals() {
                 <div className="pt-20 w-full h-[600px] sm:h-[700px] md:h-[600px] lg:h-[600px] relative">
                     <Image
                     src='/blue.png'
+                    alt="Blue seal"
                     layout='fill'
                     objectFit='cover'
                     className='rounded-3xl'
@@ -53,6 +56,7 @@ export default function CypherSeals() {
                 <div className="pt-20 w-full h-[600px] sm:h-[700px] md:h-[600px] lg:h-[600px] relative">
                     <Image
                     src='/red.png'
+                    alt="Red seal"
                     layout='fill'
                     objectFit='cover'
                     className='rounded-3xl'

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const people = [
     {
       name: 'Snorky',
@@ -61,11 +63,11 @@ const people = [
                 TEAM
             </h2>
             <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
-              <span className="block">Meet the&nbsp;</span>
+              <span className="block">Meet the</span>{' '}
               <span className="block">team</span>
             </h1>
             <p className="mt-8 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-xl md:mt-5 md:max-w-3xl">
-                We're building the future of Cypher, scaling our services for NFT projects and building our community of smarter investors.
+                We&apos;re building the future of Cypher, scaling our services for NFT projects and building our community of smarter investors.
             </p>
             </div>
             <div className="lg:col-span-2">
@@ -77,7 +79,13 @@ const people = [
                   <li key={person.name}>
                     <div className="space-y-6">
                       <div className="aspect-w-3 aspect-h-2">
-                        <img className="object-cover shadow-lg rounded-3xl" src={person.imageUrl} alt="" />
+                        <Image 
+                        className="object-cover shadow-lg rounded-3xl" 
+                        src={person.imageUrl} 
+                        alt="Team" 
+                        width="640"
+                        height="640"
+                        />
                       </div>
                       <div className="text-lg leading-6 font-medium space-y-2">
                         <h3 className="text-[#e6e6e6] uppercase">{person.name}</h3>

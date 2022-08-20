@@ -1,15 +1,8 @@
-/* This example requires Tailwind CSS v2.0+ */
+import Link from 'next/link'
+
 export default function Error500() {
     return (
       <>
-        {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full">
-          <body class="h-full">
-          ```
-        */}
         <div className="min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
           <div className="max-w-max mx-auto">
             <main className="sm:flex">
@@ -20,18 +13,20 @@ export default function Error500() {
                   <p className="mt-1 text-base text-[#e6e6e6]">Please check the URL in the address bar and try again.</p>
                 </div>
                 <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-                  <a
-                    href="/"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                  >
-                    Go back home
-                  </a>
-                  <a
-                    href="https://app.cypherseals.io"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                  >
-                    Dashboard
-                  </a>
+                <Link href="/">
+                    <a
+                      className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    >
+                      Go back home
+                    </a>
+                  </Link>
+                  <Link href="https://app.cypherseals.io">
+                    <a
+                      className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    >
+                      Dashboard
+                    </a>
+                  </Link>
                 </div>
               </div>
             </main>
