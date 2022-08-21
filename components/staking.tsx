@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Staking() {
     return (
         <>
-        <div className="w-full mt-20">
+        <div className="w-full mt-10 sm:mt-20">
             <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:flex lg:justify-between">
                 
                 
@@ -12,9 +12,9 @@ export default function Staking() {
                     <h2 className="text-[#C4ED70] tracking-wider pb-4">
                         STAKING AND TOKENOMICS
                     </h2>
-                    <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
-                        <span className="lg:block inline-block">Rewarding loyalty&nbsp;</span>
-                        <span className="lg:block inline-block">with $CYPH</span>
+                    <h1 className="text-4xl xs:text-5xl sm:text-6xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
+                        <span className="block">Rewarding loyalty&nbsp;</span>
+                        <span className="block">with $CYPH</span>
                     </h1>
                 </div>
                     <div>

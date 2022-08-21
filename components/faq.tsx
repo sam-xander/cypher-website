@@ -32,7 +32,7 @@ export default function FAQ() {
             <h2 className="text-[#FFA694] tracking-wider pb-4">
                 FAQ
             </h2>
-            <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
+            <h1 className="text-4xl xs:text-6xl sm:text-7xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
               <span className="block">Frequently asked&nbsp;</span>
               <span className="block">questions</span>
             </h1>

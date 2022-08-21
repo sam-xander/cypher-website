@@ -8,14 +8,13 @@ export default function Community() {
             <h2 className="text-[#C4ED70] tracking-wider pb-4">
                 COMMUNITY
             </h2>
-            <h1 className="text-7xl tracking-normal md:leading-tight sm:leading-tight xs:leading-tight font-extrabold text-[#E6E6E6] sm:text-7xl md:text-7xl xs:text-6xl">
-              <span className="block xl:inline">We empower</span>{' '}
-              <span className="block xl:inline">and connect investors</span>{' '}
-              
+            <h1 className="text-4xl xs:text-6xl sm:text-7xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
+              <span className="sm:block">We empower and</span>{' '}
+              <span className="sm:block">connect investors</span>
             </h1>
           </div>
         </div>
-        <div className="mx-auto w-full h-screen px-4 sm:mt-24 relative">
+        <div className="mx-auto w-full h-screen px-4 mt-10 sm:mt-20 relative">
             <Image
             src='/community.png'
             alt="Cypher community"

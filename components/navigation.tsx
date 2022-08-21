@@ -1,36 +1,36 @@
 export default function Navigation() {
     return (
       <>
-        <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <div className="mt-8 flex justify-center">
-                <div className="inline-flex rounded-md shadow">
+        <div className="w-full mt-12 sm:max-w-7xl mx-auto">
+            <div className="flex justify-center text-xs sm:text-base font-semibold space-x-1 sm:space-x-2 md:space-x-5">
+                <div>
                     <a
                     href="#cypher"
-                    className="inline-flex items-center justify-center sm:px-12 xs:px-6 py-3 border-2 border-[#FFC670] font-semibold rounded-full text-[#FFC670] duration-300 hover:bg-[#FFC670] hover:text-[#1F2933]"
+                    className="rounded-full border-2 border-[#FFC670] text-[#FFC670] duration-200 hover:bg-[#FFC670] hover:text-[#1F2933] py-[6px] sm:py-2 md:py-3 px-4 sm:px-6 md:px-10"
                     >
                     CYPHER
                     </a>
                 </div>
-                <div className="md:ml-5 ml-1 inline-flex">
+                <div>
                     <a
                     href="#community"
-                    className="inline-flex items-center justify-center sm:px-12 xs:px-6 py-3 border-2 border-[#C4ED70] font-semibold rounded-full text-[#C4ED70] duration-300 hover:bg-[#C4ED70] hover:text-[#1F2933]"
+                    className="rounded-full border-2 border-[#C4ED70] text-[#C4ED70] duration-200 hover:bg-[#C4ED70] hover:text-[#1F2933] py-[6px] sm:py-2 md:py-3 px-4 sm:px-6 md:px-10"
                     >
                     COMMUNITY
                     </a>
                 </div>
-                <div className="md:ml-5 ml-1 inline-flex">
+                <div>
                     <a
                     href="#team"
-                    className="inline-flex items-center justify-center sm:px-12 xs:px-6 py-3 border-2 border-[#92DDFD] font-semibold rounded-full text-[#92DDFD] duration-300 hover:bg-[#92DDFD] hover:text-[#1F2933]"
+                    className="rounded-full border-2 border-[#92DDFD] text-[#92DDFD] duration-200 hover:bg-[#92DDFD] hover:text-[#1F2933] py-[6px] sm:py-2 md:py-3 px-4 sm:px-6 md:px-10"
                     >
                     TEAM
                     </a>
                 </div>
-                <div className="md:ml-5 ml-1 inline-flex">
+                <div>
                     <a
                     href="#faq"
-                    className="inline-flex items-center justify-center sm:px-12 xs:px-6 py-3 border-2 border-[#FFA694] font-semibold rounded-full text-[#FFA694] duration-300 hover:bg-[#FFA694] hover:text-[#1F2933]"
+                    className="rounded-full border-2 border-[#FFA694] text-[#FFA694] duration-200 hover:bg-[#FFA694] hover:text-[#1F2933] py-[6px] sm:py-2 md:py-3 px-4 sm:px-6 md:px-10"
                     >
                     FAQ
                     </a>

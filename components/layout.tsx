@@ -5,9 +5,11 @@ import React from 'react'
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <>
-            <Navbar />
-            {children}
-            <Footer />
+            <div className="relative min-h-screen">
+                <Navbar />
+                {children}
+                <Footer />
+            </div>
         </>
     )
 }

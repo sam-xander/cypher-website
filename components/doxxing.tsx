@@ -6,7 +6,7 @@ export default function Doxxing() {
           <h2 className="text-[#FFC670] tracking-wider pb-4">
                 DOXXING (COMING SOON)
             </h2>
-            <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
+            <h1 className="text-4xl xs:text-5xl sm:text-6xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
               <span className="block">Simple trust and&nbsp;</span>
               <span className="block">credibility</span>
             </h1>

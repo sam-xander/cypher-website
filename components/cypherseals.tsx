@@ -3,14 +3,14 @@ import Image from 'next/image'
 export default function CypherSeals() {
     return (
         <>
-        <div className="mt-16 mx-auto max-w-5xl px-4 sm:mt-24">
+        <div className="mx-auto max-w-5xl px-4 mt-20 sm:mt-40">
             <div className="text-left max-w-2xl">
                 <h2 className="text-[#C4ED70] tracking-wider pb-4">
                     CYPHER SEALS NFT
                 </h2>
-                <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
-                    <span className="lg:block inline-block">Everything built for&nbsp;</span>
-                    <span className="lg:block inline-block">the community</span>
+                <h1 className="text-4xl xs:text-5xl sm:text-6xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
+                    <span className="lg:block inline-block">Everything built&nbsp;</span>
+                    <span className="lg:block inline-block">for the community</span>
                 </h1>
             </div>
             <div className="mt-16 grid md:grid-cols-2 gap-8">

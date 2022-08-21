@@ -8,7 +8,7 @@ export default function DiscordSecurity() {
                     <h2 className="text-[#FFC670] tracking-wider pb-4">
                         DISCORD SECURITY
                     </h2>
-                    <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
+                    <h1 className="text-4xl xs:text-5xl sm:text-6xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
                         <span className="lg:block inline-block">Protect your</span>{' '}
                         <span className="lg:block inline-block">community</span>
                     </h1>

@@ -56,15 +56,14 @@ const people = [
   export default function Team() {
     return (
       <>
-        <div className="mx-auto mt-40 py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto mt-20 sm:mt-40 py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
             <div>
             <h2 className="text-[#92DDFD] tracking-wider pb-3">
                 TEAM
             </h2>
-            <h1 className="text-4xl tracking-tight font-bold text-[#e6e6e6] sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight lg:text-5xl lg:tracking-tight xl:text-6xl xl:tracking-tight">
-              <span className="block">Meet the</span>{' '}
-              <span className="block">team</span>
+            <h1 className="text-4xl xs:text-6xl sm:text-7xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
+              Meet the team
             </h1>
             <p className="mt-8 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-xl md:mt-5 md:max-w-3xl">
                 We&apos;re building the future of Cypher, scaling our services for NFT projects and building our community of smarter investors.
