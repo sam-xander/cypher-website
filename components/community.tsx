@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Community() {
     return (
         <>
-        <div className="mt-24 mx-auto max-w-2xl px-4 sm:mt-40">
+        <div className="mt-20 mx-auto max-w-2xl px-4 sm:mt-40">
           <div className="text-left">
             <h2 className="text-[#C4ED70] tracking-wider pb-4">
                 COMMUNITY

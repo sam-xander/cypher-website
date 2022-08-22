@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function DiscordSecurity() {
     return (
-        <div className="w-full mt-20">
+        <div className="w-full md:mt-20">
             <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:flex lg:justify-between">
                 <div>
                     <h2 className="text-[#FFC670] tracking-wider pb-4">
@@ -15,7 +15,7 @@ export default function DiscordSecurity() {
                 </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:flex lg:justify-between">
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-3 gap-2 sm:gap-6">
                     <div>
                         <Image
                         src="/sec-1.png"

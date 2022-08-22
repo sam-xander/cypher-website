@@ -1,6 +1,6 @@
 export default function Doxxing() {
     return (
-      <div className="w-full mt-12">
+      <div className="w-full mt-10">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
           <h2 className="text-[#FFC670] tracking-wider pb-4">
