@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Header() {
     return (
-      <section className="relative w-full h-screen hidden">
+      <section className="relative w-full h-screen">
         <Image
           src="/header.png"
           className="object-cover w-full h-full"
