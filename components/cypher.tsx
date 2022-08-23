@@ -4,6 +4,7 @@ export default function Cypher() {
     return (
       <>
         <div className="mt-20 sm:mt-40 mx-auto max-w-2xl px-4">
+        <a id="cypher"></a>
           <div className="text-left">
             <h2 className="text-[#FFC670] tracking-wider pb-4">
                 CYPHER

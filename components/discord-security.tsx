@@ -61,7 +61,7 @@ export default function DiscordSecurity() {
                             href="https://cypherseals.io/#packages"
                             className="lg:max-w-xs flex justify-center py-3 border-2 border-[#FFC670] font-semibold rounded-full text-[#FFC670] duration-300 hover:bg-[#FFC670] hover:text-[#1F2933]"
                             >
-                            LEARN MORE
+                            Learn more
                             </a>
                         </div>
                     </div>

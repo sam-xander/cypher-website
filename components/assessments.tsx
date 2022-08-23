@@ -31,7 +31,7 @@ export default function Assessments() {
               href="https://cypherseals.io/docs/get-assessed.pdf"
               className="lg:max-w-xs flex justify-center py-3 border-2 border-[#FFC670] font-semibold rounded-full text-[#FFC670] duration-300 hover:bg-[#FFC670] hover:text-[#1F2933]"
             >
-              GET ASSESSED
+              Get assessed
             </a>
           </div>
         </div>

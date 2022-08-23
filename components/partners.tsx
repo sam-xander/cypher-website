@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Partners() {
     return (
         <>
-            <div className="max-w-7xl mx-auto pt-20 px-4 sm:px-6 lg:px-8">
+            <div className="hidden max-w-7xl mx-auto pt-20 px-4 sm:px-6 lg:px-8">
                 <h2 className="text-center tracking-wider pb-4 uppercase text-[#e6e6e6]">
                 Trusted By Our Partners
                 </h2>

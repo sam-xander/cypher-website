@@ -28,6 +28,7 @@ export default function FAQ() {
   return (
     <div>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+      <a id="faq"></a>
         <div className="max-w-3xl mx-auto divide-2 divide-gray-600">
             <h2 className="text-[#FFA694] tracking-wider pb-4">
                 FAQ

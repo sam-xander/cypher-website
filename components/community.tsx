@@ -4,6 +4,7 @@ export default function Community() {
     return (
         <>
         <div className="mt-20 mx-auto max-w-2xl px-4 sm:mt-40">
+        <a id="community"></a>
           <div className="text-left">
             <h2 className="text-[#C4ED70] tracking-wider pb-4">
                 COMMUNITY
