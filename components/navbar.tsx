@@ -3,6 +3,7 @@ import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'HOME', href: '/' },
@@ -38,21 +39,29 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <div className="block lg:hidden h-6 w-auto">
-                    <Image
-                      className="block lg:hidden"
-                      src="/cypher-seals-logo-dark.svg"
-                      alt="Cypher Seals logo"
-                      width="200"
-                      height="24"
-                    />
+                    <Link href="/">
+                      <a>
+                      <Image
+                        className="block lg:hidden"
+                        src="/cypher-seals-logo-dark.svg"
+                        alt="Cypher Seals logo"
+                        width="200"
+                        height="24"
+                      />
+                      </a>
+                    </Link>
                   </div>
                   <div className="hidden lg:block h-6 w-auto">
-                    <Image
-                      src="/cypher-seals-logo-dark.svg"
-                      alt="Cypher Seals logo"
-                      width="200"
-                      height="24"
-                    />
+                    <Link href="/">
+                      <a>
+                      <Image
+                        src="/cypher-seals-logo-dark.svg"
+                        alt="Cypher Seals logo"
+                        width="200"
+                        height="24"
+                      />
+                      </a>
+                    </Link>
                   </div>
                 </div>
                 
