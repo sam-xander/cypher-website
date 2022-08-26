@@ -7,7 +7,6 @@ import Cypher from '../components/cypher'
 import Assessments from '../components/assessments'
 import DiscordSecurity from '../components/discord-security'
 import Doxxing from '../components/doxxing'
-import Pricing from '../components/pricing'
 import Community from '../components/community'
 import Staking from '../components/staking'
 import CypherSeals from '../components/cypherseals'
@@ -30,7 +29,6 @@ export default function Home() {
       <Assessments />
       <DiscordSecurity />
       <Doxxing />
-      <Pricing />
       <Community />
       <Staking />
       <CypherSeals />

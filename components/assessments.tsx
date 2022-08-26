@@ -22,7 +22,7 @@ export default function Assessments() {
           <p className="mt-6 max-w-5xl lg:mx-auto text-lg text-[#e6e6e6] text-opacity-60 sm:text-2xl md:mt-8 md:max-w-3xl">
             Our NFT assessments provide value to projects and investors. We assess pre-mint and post-mint projects across 8 areas and over 100 data points. Projects receive a comprehensive report including strengths, weaknesses and suggested improvements.
           </p>
-          <Button href="/get-assessed" bgColor="bg-[#FFC670]" label="Get an assessment" />
+          <Button href="/nft-assessment" bgColor="bg-[#FFC670]" label="Get an assessment" />
         </div>
       </div>
       <div className="relative hidden lg:block w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">

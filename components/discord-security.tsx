@@ -53,7 +53,7 @@ export default function DiscordSecurity() {
                             Our team of security experts can help ease the pressure and keep your community and funds safe with personalized consultancy.
                         </p>
                         <div className="w-full mt-12">
-                            <Button href="/get-protected" bgColor="bg-[#FFC670]" label="Get protected" />
+                            <Button href="/discord-security" bgColor="bg-[#FFC670]" label="Secure your Discord" />
                         </div>
                     </div>
                 </div>
