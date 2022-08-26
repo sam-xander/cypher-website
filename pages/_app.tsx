@@ -2,6 +2,10 @@ import '../styles/globals.css'
 import Layout from '../components/layout'
 import Head from 'next/head'
 
+export function reportWebVitals(metric) {
+  console.log(metric)
+}
+
 function App({ Component, pageProps }) {
   return (
   <>
