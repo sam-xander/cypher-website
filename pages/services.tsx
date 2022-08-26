@@ -1,4 +1,5 @@
 import { CheckIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
 
 const tiers = [
   {
@@ -111,13 +112,14 @@ export default function Services() {
                   revenue for <span className="font-semibold text-gray-900">$29</span>.
                 </div>
                 <div className="rounded-md shadow mt-10">
+                    <Link href="/">  
                       <a
-                        href="/"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
                         Get started
                       </a>
+                    </Link>
                 </div>
               </div>
             </div>
