@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'HOME', href: '/' },
   { name: 'DASHBOARD', href: 'https://app.cypherseals.io' },
   { name: 'STAKING', href: 'https://stake.cypherseals.io' },
   { name: 'RAFFLE', href: 'https://raffle.cypherseals.io' },
@@ -23,7 +22,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-[#1F2933]">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-2 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
@@ -41,25 +40,25 @@ export default function Navbar() {
                   <div className="block lg:hidden h-6 w-auto">
                     <Link href="/">
                       <a>
-                      <Image
-                        className="block lg:hidden"
-                        src="/cypher-seals-logo-dark.svg"
-                        alt="Cypher Seals logo"
-                        width="200"
-                        height="24"
-                      />
+                        <Image
+                          className="block lg:hidden"
+                          src="/cypher-seals-logo-dark.svg"
+                          alt="Cypher Seals logo"
+                          width="200"
+                          height="24"
+                        />
                       </a>
                     </Link>
                   </div>
                   <div className="hidden lg:block h-6 w-auto">
                     <Link href="/">
                       <a>
-                      <Image
-                        src="/cypher-seals-logo-dark.svg"
-                        alt="Cypher Seals logo"
-                        width="200"
-                        height="24"
-                      />
+                        <Image
+                          src="/cypher-seals-logo-dark.svg"
+                          alt="Cypher Seals logo"
+                          width="200"
+                          height="24"
+                        />
                       </a>
                     </Link>
                   </div>
@@ -75,7 +74,7 @@ export default function Navbar() {
                           href={item.href}
                           className={classNames(
                             router.route === item.href
-                            ? 'text-xs bg-transparent rounded-3xl border border-2 border-[#113C5A] text-[#e6e6e6] uppercase hover:bg-[#344250] hover:border-transparent' : 'self-center text-xs rounded-3xl bg-[#113C5A] text-[#e6e6e6] uppercase hover:bg-[#344250]',
+                            ? 'text-xs bg-transparent rounded-3xl border-2 border-[#113C5A] text-[#e6e6e6] uppercase hover:bg-[#344250] hover:border-transparent' : 'self-center text-xs rounded-3xl bg-[#113C5A] text-[#e6e6e6] uppercase hover:bg-[#344250]',
                             'px-4 py-1 font-semibold'
                           )}
                           aria-current={router.route === item.href ? 'page' : undefined}

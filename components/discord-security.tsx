@@ -1,17 +1,13 @@
 import Image from 'next/image'
+import Button from '../components/button'
+import HeadingSmall from '../components/heading-small'
 
 export default function DiscordSecurity() {
     return (
         <div className="w-full md:mt-20">
             <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:flex lg:justify-between">
                 <div>
-                    <h2 className="text-[#FFC670] tracking-wider pb-4">
-                        DISCORD SECURITY
-                    </h2>
-                    <h1 className="text-4xl xs:text-5xl sm:text-6xl tracking-tight font-bold text-[#e6e6e6] sm:tracking-tight md:tracking-tight lg:tracking-tight xl:tracking-tight">
-                        <span className="lg:block inline-block">Protect your</span>{' '}
-                        <span className="lg:block inline-block">community</span>
-                    </h1>
+                    <HeadingSmall subtitle='Discord Security' subColor='text-[#FFC670]' span1='Protect your' span2='community' />
                 </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:flex lg:justify-between">
@@ -57,12 +53,7 @@ export default function DiscordSecurity() {
                             Our team of security experts can help ease the pressure and keep your community and funds safe with personalized consultancy.
                         </p>
                         <div className="w-full mt-12">
-                            <a
-                            href="https://cypherseals.io/#packages"
-                            className="lg:max-w-xs flex justify-center py-3 border-2 border-[#FFC670] font-semibold rounded-full text-[#FFC670] duration-300 hover:bg-[#FFC670] hover:text-[#1F2933]"
-                            >
-                            Learn more
-                            </a>
+                            <Button href="/get-protected" bgColor="bg-[#FFC670]" label="Get protected" />
                         </div>
                     </div>
                 </div>
