@@ -66,7 +66,7 @@ export default function GetAssessed() {
                                 <div className="mt-6">
                                     <HeadingSmall subtitle="App Listing + Social Post" subColor="text-[#FFC670]" span1="Increase your" span2="brand awareness" />
                                     <p className="mt-8 text-lg text-[#e6e6e6]/70">
-                                        Your assessment certificate will be posted to our Discord and Twitter. The assessment report will be posted to our dashboard as well as our partner's platforms. This will put your project in front of thousands of new eyes.
+                                        Your assessment certificate will be posted to our Discord and Twitter. The assessment report will be posted to our dashboard as well as our partner&apos;s platforms. This will put your project in front of thousands of new eyes.
                                     </p>
                                 </div>
                             </div>
