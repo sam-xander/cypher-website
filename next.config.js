@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 
+const ContentSecurityPolicy = `
+  style-src 'self' 'unsafe-inline';
+  img-src 'self' localhost:3000 cypherseals.io data: w3.org/2000/svg;
+  font-src 'self' rsms.me/inter/inter.css;
+`
+
 const securityHeaders = [
   {
     key: 'X-DNS-Prefetch-Control',
@@ -28,6 +34,10 @@ const securityHeaders = [
   {
     key: 'Referrer-Policy',
     value: 'origin-when-cross-origin'
+  },
+  {
+    key: 'Content-Security-Policy',
+    value: ContentSecurityPolicy.replace(/\s{2,}/g, ' ').trim()
   },
 ]
 
