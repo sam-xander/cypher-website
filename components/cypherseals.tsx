@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Button from "../components/button";
-import HeadingSmall from "../components/heading-small";
+import Button from "./Button";
+import HeadingSmall from "./HeadingSmall";
 
 const benefits = [
   {
@@ -76,10 +76,10 @@ export default function CypherSeals() {
                 bring more utility and value to our holders.
               </p>
               <Button
-                href="https://discord.gg/cypherseals"
-                bgColor="bg-[#C4ED70]"
-                label="Enter the Cypher Discord"
-              />
+                href="/register"
+                classNames="bg-white"
+                label="Get Started"
+              ></Button>
             </div>
           </div>
         </div>

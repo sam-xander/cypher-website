@@ -1,6 +1,6 @@
 import Image from 'next/future/image'
-import HeadingLarge from '../components/heading-large'
-import HeadingSmall from '../components/heading-small'
+import HeadingLarge from '../components/HeadingLarge'
+import HeadingSmall from '../components/HeadingSmall'
 import { ExclamationIcon, ClipboardListIcon, LockClosedIcon, AcademicCapIcon } from '../node_modules/@heroicons/react/outline'
 
 const risks = [

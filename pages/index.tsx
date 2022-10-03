@@ -1,31 +1,38 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Header from '../components/header'
-import Partners from '../components/partners'
-import Navigation from '../components/navigation'
-import Cypher from '../components/cypher'
-import Assessments from '../components/assessments'
-import DiscordSecurity from '../components/discord-security'
-import Doxxing from '../components/doxxing'
-import Community from '../components/community'
-import Staking from '../components/staking'
-import CypherSeals from '../components/cypherseals'
-import Team from '../components/team'
-import FAQ from '../components/faq'
+import Hero from "../components/Hero";
+import Partners from "../components/Partners";
+import Cypher from "../components/Cypher";
+import Assessments from "../components/Assessments";
+import DiscordSecurity from "../components/DiscordSecurity";
+import Doxxing from "../components/Doxxing";
+import Community from "../components/Community";
+import Staking from "../components/Staking";
+import CypherSeals from "../components/CypherSeals";
+import Team from "../components/Team";
+import FAQ from "../components/FAQ";
+import Launch from "../components/index/Launch";
+import ScrollIcon from "../components/index/ScrollIcon";
+import Banner from "../components/index/Banner";
 
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
       <Head>
         <title>Cypher Seals</title>
-        <meta name="description" content="Web3 brand empowering project teams and investors." />
+        <meta
+          name="description"
+          content="Web3 brand empowering project teams and investors."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <Header />
+
+      <Hero />
+      <Launch />
+      <ScrollIcon />
       <Partners />
-      <Navigation />
       <Cypher />
+      <Banner />
       <Assessments />
       <DiscordSecurity />
       <Doxxing />
@@ -34,7 +41,6 @@ export default function Home() {
       <CypherSeals />
       <Team />
       <FAQ />
-    </div> 
-    
-  )
+    </div>
+  );
 }

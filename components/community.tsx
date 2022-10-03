@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HeadingLarge from '../components/heading-large'
+import HeadingLarge from './HeadingLarge'
 
 export default function Community() {
     return (

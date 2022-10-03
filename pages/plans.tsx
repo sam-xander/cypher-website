@@ -1,6 +1,6 @@
 import { CheckIcon } from "@heroicons/react/outline";
 import Link from "next/link";
-import HeadingLarge from "../components/heading-large";
+import HeadingLarge from "../components/HeadingLarge";
 
 const tiers = [
   {

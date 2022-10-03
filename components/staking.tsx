@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeadingSmall from "../components/heading-small";
+import HeadingSmall from "./HeadingSmall";
 
 export default function Staking() {
   return (

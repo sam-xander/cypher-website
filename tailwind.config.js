@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -9,10 +9,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xs': '475px',
+      xs: "475px",
       ...defaultTheme.screens,
     },
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/aspect-ratio")],
+};
