@@ -1,4 +1,5 @@
 import Image from "next/image";
+// @ts-ignore
 import Button from "./Button";
 import HeadingSmall from "./HeadingSmall";
 
