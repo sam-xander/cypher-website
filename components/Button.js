@@ -1,14 +1,6 @@
 import React from "react";
 
-interface ButtonProps {
-  href: string;
-  classNames: string;
-  label: string;
-  iconLeft?: React.ReactNode;
-  iconRight?: React.ReactNode;
-}
-
-export default function Button(props: ButtonProps) {
+export default function Button(props) {
   return (
     <a
       href={props.href}
